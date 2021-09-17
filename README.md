@@ -1,5 +1,6 @@
 # Voluntold
-Voluntold is a program that allows teachers to automatically pick a student in a class and have everyone go through the list before someone else can be selected again.  Normal random generators will keep picking the same students over and over and this program solves that issue.  It is customizable and simple to use.
+Voluntold is a random person selector that ensures all options are picked before a duplicate can be picked again.  In other words, an option cannot be selected until every other option has been selected.  
+Normal random generators will keep picking the same students over and over.  This program is customizable and simple to use.
 
 ## Required
 In order to use your own version of Voluntold, you must have the following items:
