@@ -13,12 +13,12 @@ This program is free to use under the MIT License, so feel free to use it howeve
 This template is set up for a single teacher in mind to make it easy to set up for new users.  It is possible for multiple teachers to use the same project, but it is recommended that each teacher keeps their own repository instead of having one set up to share. 
 
 ## Step 1: Forking the repository
-In order to make this program your own version for your class, go to the top of this page and click on the green button that says 'Use this template' or click on [this link](https://github.com/sheepman39/voluntold-template/generate).  
-This will allow you to make a new repository (aka 'repo') where you can store all of your classes.   For this project to be available, we will be using [Github Pages](https://pages.github.com/), a free service included with every GitHub Account.  It makes it easy to deploy basic HTML applications like this one.
+In order to make this program customized for your class, go to the top of this page and click on the green button that says 'Use this template' or click on [this link](https://github.com/sheepman39/voluntold-template/generate).  
+This will allow you to make a new repository (aka 'repo') where you can edit and customize your version of Voluntold.   To deploy this project in order for it to be used, we will be using [Github Pages](https://pages.github.com/), a free service included with every GitHub Account.  GitHub Pages makes it easy to deploy basic HTML applications like this one.
 
 <br>
 
-Name the repository that you just created <*username*.github.io> where *username* is your GitHub username.  It must be exactly the same or else it will not deploy properly.  You can add a description if you would like, but it is not necessary.  
+Name the repository that you just created "*username*.github.io" where *username* is your GitHub username.  It must be exactly the same or it will not work properly.  You can add a description if you would like, but it is not necessary.  
 Next, mark the visibility of the project as Public so this page can be seen by anybody.  If you mark it as Private, GitHub will not publish your version of Voluntold.
 Click on 'Create repository from template' and you will be directed to the your new repository home page.
 
@@ -28,11 +28,11 @@ However, the class names and students are not set up yet.  In order to set it up
 
 <br>
 
-First, on GitHub, click on the file labeled `students.json`.  Next, you should see a file with a bunch of text in it.  On the right side of the screen will be a picture of a pen labeled `Edit this file`.  Click on the pen to edit.
+First, on your repositories page, click on the file labeled `students.json`.  Next, you should see a file with a bunch of text in it.  On the right side of the screen will be a picture of a pen labeled `Edit this file`.  Click on the pen to edit.
 
 <br>
 
-We will go through the steps of customizing step by step.  The second line should say something like `"firstHour": {`.  Please note that `firstHour` is in quotation marks. This is very important.  
+We will go through the process of customizing step by step.  The second line should say something like `"firstHour": {`.  Please note that `firstHour` is in quotation marks. This is very important.  
 
 <br>
 
@@ -41,12 +41,12 @@ Voluntold uses an object structure called json in order to make customizability 
 Your file should have multiple segments that look like this: 
 ```json
     "firstHour": {
-        "names": ["Camdin", "Olivia B", "Ashanti", "Abbie"],
+        "names": ["Faith", "Myrtle H.", "Tia", "Eric"],
         "extra": [],
         "className": "Spanish 1 1st H"
     },
 ```
-Note that any name (firstHour, names, extra, className) is within quotation marks.  *When changing the name of anything, it is important to keep them within quotation marks.*
+Note that any name (firstHour, names, extra, className) is within quotation marks.  *When changing the name of anything, it is important to keep them within matching quotation marks.*
 Commas, brackets, curly brackets, and colons should not be deleted or added randomly or else it will not work.  The next few sections will talk about what you can and cannot change.
 
 <br>
