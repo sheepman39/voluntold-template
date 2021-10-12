@@ -3,8 +3,8 @@ Voluntold is a random person selector that ensures all options are picked before
 Normal random generators will keep picking the same students over and over.  This program is customizable and simple to use.
 
 ## Required
-In order to use your own version of Voluntold, you must have the following items:
-- GitHub Account
+In order to create your own version of Voluntold, you must have the following items:
+- Free GitHub Account
 - Web browser/Internet Access
 - Text Editor (recommended)
 
