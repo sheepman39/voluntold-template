@@ -73,7 +73,7 @@ Delete the default names within each of these so you can add your own.  Each one
 <br>
 
 ### Changing the text on the button
-In each of your class hour's, there is an indented section labeled `"className": "<text that will appear on the button>"`.  Change what is in the <> to the text you would like on the buttons that will be used to select which class you are choosing from.  
+In each of your class hour's, there is an indented section labeled `"className": "<sample text>"`.  Change what is in the <> to the text you would like on the buttons that will be used to select which class you are choosing from.  
 If this value is left blank or deleted, it will default to the name of the class hour you put down.
 
 <br>
@@ -85,10 +85,27 @@ Once it has turned green (it may require a refresh to see the check mark) go to 
 
 <br>
 
-# Advanced Options
+## Troubleshooting
+Here are some common issues that you may run into and how to fix them.
 
-Note that these advanced options involve editing the program.  If you are not sure how to use them, please do not use them.  They are not necessary for the program to work.
+<br>
 
-The basic layout is in the `index.html` file.  The color scheme is within the `layout.css` files.  The basic functions and buttons are in the `script.js` file.
+### 404: Page not found
+If this shows up when trying to go to your site, make sure you are spelling everything exactly right.  The name of your repo must be exactly `*username*.github.io` where *username* is your GitHub username.  When deployed to your GitHub Pages site, the link will be `https://*username*.github.io/*username*/*username*.github.io`.
+If you go to your repo Settings and click on `Pages`, you should see some other settings with this.  
+Also, do not change any file names or the file structure of your repo.  If you do, you will not be able to deploy your site.
 
-None of these files should be edited unless you know what you are doing.  I have done my best to keep the code clean and commented so you can easily understand what is going on.
+<br>
+
+### SyntaxError: Unexpected token '' in JSON at position X
+This error often means that there is a syntax error in your json file.  Check your json file and make sure it is formatted correctly.  
+Once again, a json checker site like [jsonlint.com](https://jsonlint.com/) is a good way to check your json file.  If it is not correct, you can fix it by checking the red error message below the text box.  Usually an error like this will come from a missing comma, quotation mark, or bracket.  
+If you are still having this error after a while, submit an [issue](https://github.com/sheepman39/voluntold-template/issues) on GitHub and include the JSON file.
+    
+<br>
+
+# Advanced Notes
+
+If you are a developer that would like to take a look at the actual code running, you are free to do so and modify it however you would like.
+The basic layout is in the `index.html` file.  The color scheme is within the `layout.css` files.  The core functions and buttons are in the `script.js` file.
+None of these files should be edited unless you know what you are doing.  I have done my best to keep the code clean and commented so others can easily understand what is going on.  If you have any questions, please do not hesitate to submit an [issue](https://github.com/sheepman39/voluntold-template/issues) on GitHub and I will be happy to help.
