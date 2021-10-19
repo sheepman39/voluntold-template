@@ -51,7 +51,7 @@ Commas, brackets, curly brackets, and colons should not be deleted or added rand
 
 <br>
 
-Going to a json checker site like [jsonlint.com](https://jsonlint.com/) is a good way to check your syntax.  If it is not correct, you can fix it by checking the red error message below the text box.
+Going to a json checker site like [jsonlint.com](https://jsonlint.com/) is a good way to check your json file.  If it is not correct, you can fix it by checking the red error message below the text box.
 
 <br>
 
@@ -81,7 +81,7 @@ If this value is left blank or deleted, it will default to the name of the class
 ## Step 3: Commit your changes
 After editing each of your classes to be the way you want them, scroll down on GitHub and select `commit directly to the main branch` and hit the green button that says `commit changes`.  This will save your changes and your site should be updated shortly.
 Go back to your repository page (https://github.com/*username*/*username*.github.io) and refresh it.  On one of the top bars will be either an orange dot or a green check mark indicating if your site has been updated.
-Once it has turned green (it may require a refresh to see the check mark) go to your site and refresh it.  Assuming everything works properly, you now have your customized version of voluntold!  
+Once it has turned green (it may require a refresh to see the check mark) go to your site and refresh it.  Assuming everything works properly, you now have your customized version of Voluntold!  
 
 <br>
 
