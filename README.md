@@ -20,7 +20,7 @@ This will allow you to make a new repository (aka 'repo') where you can edit and
 
 Name the repository that you just created "*username*.github.io" where *username* is your GitHub username.  It must be exactly the same or it will not work properly.  You can add a description if you would like, but it is not necessary.  
 Next, mark the visibility of the project as Public so this page can be seen by anybody.  If you mark it as Private, GitHub will not publish your version of Voluntold.
-Click on 'Create repository from template' and you will be directed to the your new repository home page.
+Click on 'Create repository from template' and you will be directed to your new repository home page.
 
 ## Step 2: Editing files
 Once you made your new repo, wait for about 5 minutes and then go to *username*.github.io, where *username* is your GitHub username.  Your version of voluntold should show up at the site.
