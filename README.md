@@ -28,7 +28,7 @@ However, the class names and students are not set up yet.  In order to set it up
 
 <br>
 
-First, on your repositories page, click on the file labeled `students.json`.  Next, you should see a file with a bunch of text in it.  On the right side of the screen will be a picture of a pen labeled `Edit this file`.  Click on the pen to edit.
+First, on your repositories main page (this will be https://github.com/*username*/*username*.github.io), click on the file labeled `students.json`.  Next, you should see a file with a bunch of text in it.  On the right side of the screen will be a picture of a pen labeled `Edit this file`.  Click on the pen to edit.
 
 <br>
 
@@ -101,6 +101,11 @@ Also, do not change any file names or the file structure of your repo.  If you d
 This error often means that there is a syntax error in your json file.  Check your json file and make sure it is formatted correctly.  
 Once again, a json checker site like [jsonlint.com](https://jsonlint.com/) is a good way to check your json file.  If it is not correct, you can fix it by checking the red error message below the text box.  Usually an error like this will come from a missing comma, quotation mark, or bracket.  
 If you are still having this error after a while, submit an [issue](https://github.com/sheepman39/voluntold-template/issues) on GitHub and include the JSON file.
+
+<br>
+
+### TypeError: Failed to fetch _
+This error usually means that you are trying to view the site locally instead of hosting it on GitHub or the `students.json` file is renamed/deleted from your repository.  For security reasons, your browser will not allow you to view it locally so you must have it hosted on GitHub.  If you still have this error, double check that you have the `students.json` file in your repository.  If you are still having this error after a while, submit an [issue](https://github.com/sheepman39/voluntold-template/issues) on GitHub and include the link to your repository.
     
 <br>
 
