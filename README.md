@@ -62,13 +62,13 @@ There are six labels that are similar to `firstHour`.  If needed, change those a
 <br>
 
 ### Adding additional classes
-If you need to add a class hour, copy **all** of lines 2-6 and paste it in between lines 6 and 7.  Once you have the new class, you can change the name of the class and the students in it.
+If you need to add a class hour, copy **all** of lines 2-6 and paste it in between lines 6 and 7.  Once you have the new class, you **must** change the name of the class and the students in it.  Duplicate class names are not allowed.
 
 <br>
 
 ### Changing the names of students
 In each of your class hour's, there is an indented section labeled `names`.  This is where you will input the names of each of your students.
-Delete the default names within each of these so you can add your own.  Each one of the student's names must be in quotation marks with a comma separating them, as shown in the example above.  The last item of the list does not need to have a comma at the end.  Each of the names must be within the brackets []. 
+Delete the default names within each of these so you can add your own.  Each one of the student's names must be in quotation marks with a comma separating them, as shown in the example above.  The last item of the list does not need to have a comma at the end.  Each of the names must be within the brackets [ ]. 
 
 <br>
 
